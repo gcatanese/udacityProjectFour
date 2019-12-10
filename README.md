@@ -29,9 +29,9 @@ Sparkify team to load and query.
 ### Pre-requisites
 
 * Python 3 with pyspark
-* S3 bucket with the SONG and LOG data
+* S3 bucket with the input folder (SONG and LOG data) and output folder 
 
-1. Config dl.cfg accordingly (AWS keys)
+1. Config dl.cfg accordingly (AWS keys and S3 paths)
 2. Execute 'etl.py'
 
 ## Data Model
