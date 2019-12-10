@@ -3,7 +3,7 @@
 ## Intro
 
 The goal of the project is to create a Data Lake using Spark and AWS.
-The song and log data is loaded from Amazon S3, processed and the output stored back on S3
+The song and log data is loaded from Amazon S3, processed and the output stored back on S3.
 
 The README presents the following:
 1. Solution
@@ -14,11 +14,9 @@ The README presents the following:
 
 The ETL processes 2 sets of file: SONG and LOG data. The data is available on an S3 bucket in the form of JSON files, 
 organised in a folder structure. 
-The Spark Dataframe is used to load the files in a tabular format, mapping JSON attributes to the desired column names and  
-dealing with possible duplicates.
+The Spark Dataframe is used to load the files in a tabular format, mapping JSON attributes to the desired column names and dealing with possible duplicates.
 
-User Defined Functions (UDF) are used to process specific columns, for example to convert a BigInt value to the
-corresponding Timestamp.
+User Defined Functions (UDF) are used to process specific columns, for example to convert a BigInt value to the corresponding Timestamp.
 
 Two different Dataframes are combined (join) to create the Facts table as this needs data found in different datasets.
 
